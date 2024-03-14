@@ -1,0 +1,117 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1710381221
+default_bus_layout.tres::AudioBusLayout::1820040610254937254::1697384323::0::1::::<><>::
+icon.svg::CompressedTexture2D::7796296696408269585::1697384323::1710381221::1::::<><>::
+LICENSE.txt::TextFile::-1::1697384323::0::1::::<><>::
+README.txt::TextFile::-1::1697384323::0::1::::<><>::
+::res://Audio/::1710381114
+::res://Audio/Sounds/::1710378031
+Bullet.wav::AudioStreamWAV::2258193280077460946::1697384323::1710381222::1::::<><>::
+Death.wav::AudioStreamWAV::7676563021970099724::1697384323::1710381222::1::::<><>::
+Hurt.wav::AudioStreamWAV::4945261345123671290::1697384323::1710381222::1::::<><>::
+Jump.wav::AudioStreamWAV::6850346851111860259::1697384323::1710381222::1::::<><>::
+Menu Click.wav::AudioStreamWAV::3927122416182465699::1697384323::1710381222::1::::<><>::
+Menu Hover.wav::AudioStreamWAV::8498880243306575017::1697384323::1710381222::1::::<><>::
+Shoot.wav::AudioStreamWAV::8543302530412309337::1697384323::1710381222::1::::<><>::
+Splash Click.wav::AudioStreamWAV::1606141925767258122::1697384323::1710381222::1::::<><>::
+Splash Glitch.wav::AudioStreamWAV::6293464447861053157::1697384323::1710381222::1::::<><>::
+::res://Data/::1710381114
+::res://Data/Movement Data/::1710377993
+Bat Movement Data.tres::Resource/MovementData::5672428334511350492::1697384323::0::1::::<><>::res://Scripts/Resources/movement_data.gd
+Player Movement Data.tres::Resource/MovementData::3861515008319349245::1697384323::0::1::::<><>::res://Scripts/Resources/movement_data.gd
+::res://Data/Stats/::1710377993
+Bat Stats.tres::Resource/Stats::2442201626378453715::1697384323::0::1::::<><>::res://Scripts/Resources/stats.gd
+Player Stats.tres::Resource/Stats::6560632973247868061::1697384323::0::1::::<><>::res://Scripts/Resources/stats.gd
+::res://Fonts/::1710381119
+PixelifySans-Regular.ttf::FontFile::5000725269614682270::1697384323::1710381221::1::::<><>::
+::res://Scenes/::1710381107
+::res://Scenes/Characters/::1710377998
+bat.tscn::PackedScene::7189355486173645450::1697384323::0::1::::<><>::uid://c55u7w2c5tqcb::::res://Textures/Characters/Bat.png<>res://Scripts/Characters/Bat/bat.gd<>uid://cm21cig2uhtbw::::res://Data/Movement Data/Bat Movement Data.tres<>uid://ba2ax62c6bnx0::::res://Data/Stats/Bat Stats.tres<>res://Shaders/Hit Flash.gdshader<>uid://bfmjbl00kj2vc::::res://Scenes/Components/hurtbox.tscn<>uid://bkp0gna2taagk::::res://Scenes/Components/hitbox.tscn<>uid://ck6k0r0tymmak::::res://Textures/UI/Emote.png<>uid://ivuenv50bi35::::res://Scenes/Components/player_detection_zone.tscn<>res://Scripts/Components/state_machine.gd<>res://Scripts/Characters/Bat/idle.gd<>res://Scripts/Characters/Bat/wander.gd<>res://Scripts/Characters/Bat/attack.gd<>res://Scripts/Characters/Bat/death.gd<>uid://6jebehbxdvj3::::res://Textures/UI/Bat Health Bar Empty.png<>uid://e7mb2pjdc27o::::res://Textures/UI/Bat Health Bar.png
+player.tscn::PackedScene::8652662714840054014::1697384323::0::1::::<><>::res://Scripts/Characters/Player/player.gd<>uid://54furj5lgxfw::::res://Textures/Characters/Player.png<>uid://bvast80iosmev::::res://Data/Movement Data/Player Movement Data.tres<>uid://c0qawwsbk0ym4::::res://Data/Stats/Player Stats.tres<>res://Shaders/Hit Flash.gdshader<>uid://bfmjbl00kj2vc::::res://Scenes/Components/hurtbox.tscn
+::res://Scenes/Components/::1710377998
+hitbox.tscn::PackedScene::3120804110022611430::1697384323::0::1::::<><>::res://Scripts/Components/hitbox.gd
+hurtbox.tscn::PackedScene::2762686291187379968::1697384323::0::1::::<><>::res://Scripts/Components/hurtbox.gd
+player_detection_zone.tscn::PackedScene::606084881611428494::1697384323::0::1::::<><>::res://Scripts/Components/player_detection_zone.gd
+::res://Scenes/Global/::1710377998
+audio_manager.tscn::PackedScene::8109491242994693538::1697384323::0::1::::<><>::res://Scripts/Global/AudioManager.gd
+::res://Scenes/Levels/::1710380694
+main_menu.tscn::PackedScene::1853120772705284773::1697384323::0::1::::<><>::res://Scripts/Levels/main_menu.gd<>uid://cdinhkbw5qcbu::::res://Fonts/PixelifySans-Regular.ttf<>uid://bxb8fv3cum5cb::::res://Textures/UI/Menu Background.png<>uid://c8swcohbmlu7u::::res://Textures/UI/Menu Head.png
+prototype.tscn::PackedScene::8882692185294938642::1710380694::0::1::::<><>::uid://dfijrhi1a1x40::::res://Textures/Tiles/Ground.png<>uid://dtgfhxea5ctv7::::res://Textures/Tiles/Waterfall.png<>res://Scripts/Levels/prototype.gd<>uid://51injiymv7tk::::res://Textures/Tiles/Nature Props.png<>uid://dw6rcuunjyiya::::res://Textures/Tiles/Cloud.png<>uid://dvjodc5t5wxm1::::res://Scenes/Characters/player.tscn<>uid://daotvtptr6kby::::res://Scenes/Characters/bat.tscn<>res://Scripts/Resources/stats.gd<>uid://tjcbe8yuu2sc::::res://Textures/Tiles/Cave.png<>uid://2b2xfq1mesyu::::res://Scenes/UI/bullet_ui.tscn<>uid://dh70tt12v5kly::::res://Textures/Tiles/Cave Ceiling.png<>res://Scripts/Components/Camera2D.gd<>uid://gjbo06qhflpe::::res://Scenes/UI/health_bar.tscn<>uid://cdinhkbw5qcbu::::res://Fonts/PixelifySans-Regular.ttf<>res://Shaders/Chromatic Abberation.gdshader<>uid://b2y0y38ayncla::::res://Textures/Props/Checkpoint.png
+splash_transition.tscn::PackedScene::2839096437493870586::1710378036::0::1::::<><>::uid://ddp25hha73h0i::::res://Textures/Splash Screens/Dark.png<>res://Scripts/Levels/splash_transition.gd<>uid://cvodqn0uepjwd::::res://Textures/Splash Screens/Light.png<>res://Shaders/Chromatic Abberation.gdshader
+::res://Scenes/Particles/::1710377998
+muzzle.tscn::PackedScene::1903818264532101872::1697384323::0::1::::<><>::res://Scripts/Particles/muzzle.gd
+player_death_particle.tscn::PackedScene::8413088234442719899::1697384323::0::1::::<><>::res://Scripts/Particles/PlayerDeathParticle.gd
+::res://Scenes/Props/::1710377998
+bullet.tscn::PackedScene::6955615482347241860::1697384323::0::1::::<><>::uid://bjg5fygfb0yvm::::res://Textures/Props/Bullet.png<>res://Scripts/Props/bullet.gd<>uid://bkp0gna2taagk::::res://Scenes/Components/hitbox.tscn
+::res://Scenes/UI/::1710377998
+bullet_ui.tscn::PackedScene::1898843876576598572::1697384323::0::1::::<><>::res://Scripts/UI/bullet_ui.gd<>uid://hkk8m5rrefjk::::res://Textures/UI/Bullet.png<>uid://cdinhkbw5qcbu::::res://Fonts/PixelifySans-Regular.ttf
+health_bar.tscn::PackedScene::439799541431388678::1697384323::0::1::::<><>::res://Scripts/UI/health_bar.gd<>uid://kql3agaabkub::::res://Textures/UI/Health Bar Empty.png<>uid://bptrdd6gov3f::::res://Textures/UI/Health Bar.png<>uid://btn6cxaw5a8hq::::res://Textures/UI/Player Head.png
+::res://Scripts/::1710381107
+::res://Scripts/Characters/::1710377998
+::res://Scripts/Characters/Bat/::1710377998
+attack.gd::GDScript::-1::1697384323::0::1::::<>State<>::
+bat.gd::GDScript::-1::1697384323::0::1::::<>CharacterBody2D<>::
+death.gd::GDScript::-1::1697384323::0::1::::<>State<>::
+idle.gd::GDScript::-1::1697384323::0::1::::<>State<>::
+wander.gd::GDScript::-1::1697384323::0::1::::<>State<>::
+::res://Scripts/Characters/Player/::1710377998
+player.gd::GDScript::-1::1697384323::0::1::::<>CharacterBody2D<>::
+::res://Scripts/Components/::1710377993
+Camera2D.gd::GDScript::-1::1697384323::0::1::::<>Camera2D<>::
+hitbox.gd::GDScript::-1::1697384323::0::1::::<>Area2D<>::
+hurtbox.gd::GDScript::-1::1697384323::0::1::::<>Area2D<>::
+player_detection_zone.gd::GDScript::-1::1697384323::0::1::::<>Area2D<>::
+state.gd::GDScript::-1::1697384323::0::1::::State<>Node<>::
+state_machine.gd::GDScript::-1::1697384323::0::1::::StateMachine<>Node<>::
+::res://Scripts/Global/::1710377993
+AudioManager.gd::GDScript::-1::1697384323::0::1::::<>Node<>::
+event_manager.gd::GDScript::-1::1697384323::0::1::::<>Node<>::
+::res://Scripts/Levels/::1710380703
+main_menu.gd::GDScript::-1::1697384323::0::1::::<>Control<>::
+prototype.gd::GDScript::-1::1710380694::0::1::::<>Node2D<>::
+splash_transition.gd::GDScript::-1::1697384323::0::1::::<>Control<>::
+::res://Scripts/Particles/::1710377993
+muzzle.gd::GDScript::-1::1697384323::0::1::::<>GPUParticles2D<>::
+PlayerDeathParticle.gd::GDScript::-1::1697384323::0::1::::<>GPUParticles2D<>::
+::res://Scripts/Props/::1710377993
+bullet.gd::GDScript::-1::1697384323::0::1::::<>Area2D<>::
+::res://Scripts/Resources/::1710377993
+movement_data.gd::GDScript::-1::1697384323::0::1::::MovementData<>Resource<>::
+stats.gd::GDScript::-1::1697384323::0::1::::Stats<>Resource<>::
+::res://Scripts/UI/::1710377993
+bullet_ui.gd::GDScript::-1::1697384323::0::1::::<>Control<>::
+health_bar.gd::GDScript::-1::1697384323::0::1::::<>Control<>::
+::res://Shaders/::1710381107
+Chromatic Abberation.gdshader::Shader::-1::1697384323::0::1::::<><>::
+Hit Flash.gdshader::Shader::-1::1697384323::0::1::::<><>::
+::res://Shooter2D/::1710381101
+::res://Textures/::1710381101
+::res://Textures/Characters/::1710378031
+Bat.png::CompressedTexture2D::6941710691764401533::1697384323::1710381221::1::::<><>::
+Player.png::CompressedTexture2D::2165872473028852476::1697384323::1710381221::1::::<><>::
+::res://Textures/Props/::1710378031
+Bullet.png::CompressedTexture2D::3032338251771024046::1697384323::1710381221::1::::<><>::
+Checkpoint Empty.png::CompressedTexture2D::2754071125302171053::1697384323::1710381221::1::::<><>::
+Checkpoint.png::CompressedTexture2D::4332626833555224614::1697384323::1710381221::1::::<><>::
+::res://Textures/Splash Screens/::1710378031
+Dark.png::CompressedTexture2D::7402487559447092502::1697384323::1710381222::1::::<><>::
+Light.png::CompressedTexture2D::6275919818360813579::1697384323::1710381222::1::::<><>::
+::res://Textures/Tiles/::1710378031
+Cave Ceiling.png::CompressedTexture2D::7718196938943375446::1697384323::1710381221::1::::<><>::
+Cave.png::CompressedTexture2D::1352290910878532210::1697384323::1710381221::1::::<><>::
+Cloud.png::CompressedTexture2D::8768449163923440448::1697384323::1710381221::1::::<><>::
+Ground.png::CompressedTexture2D::7527298483937481567::1697384323::1710381221::1::::<><>::
+Nature Props.png::CompressedTexture2D::2159848568185356920::1697384323::1710381221::1::::<><>::
+Waterfall.png::CompressedTexture2D::8505553646503906086::1697384323::1710381221::1::::<><>::
+::res://Textures/UI/::1710378031
+Bat Health Bar Empty.png::CompressedTexture2D::2194678427313857802::1697384323::1710381221::1::::<><>::
+Bat Health Bar.png::CompressedTexture2D::347547294104703706::1697384323::1710381221::1::::<><>::
+Bullet.png::CompressedTexture2D::512632461552968096::1697384323::1710381221::1::::<><>::
+Crosshair.png::CompressedTexture2D::1054653249399002604::1697384323::1710381221::1::::<><>::
+Emote.png::CompressedTexture2D::5539378261330559546::1697384323::1710381221::1::::<><>::
+Health Bar Empty.png::CompressedTexture2D::735636378863926489::1697384323::1710381221::1::::<><>::
+Health Bar.png::CompressedTexture2D::102338654929430401::1697384323::1710381221::1::::<><>::
+Menu Background.png::CompressedTexture2D::4004842201215704093::1697384323::1710381221::1::::<><>::
+Menu Head.png::CompressedTexture2D::7127572098645479708::1697384323::1710381221::1::::<><>::
+Mouse.png::CompressedTexture2D::4196587943723644174::1697384323::1710381221::1::::<><>::
+Player Head.png::CompressedTexture2D::3748732631058824738::1697384323::1710381221::1::::<><>::
